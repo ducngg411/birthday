@@ -1,17 +1,21 @@
 body {
 	/*background-color: #FFDAB9;	*/
-	background-color: #000;
-	-webkit-transition:background-color linear 5s;
+	background-image: url(Bản\ sao\ của\ File\ HPBD\ \(1\).png);
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	width: 100vw;
+	height: 100vh;
+	/* -webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
 	-o-transition:background-color linear 5s;
 	-ms-transition:background-color linear 5s;
 	transition:background-color linear 5s;
-	overflow-x:hidden;
+	overflow-x:hidden; */
 }
 .container {
 	display: none;
 }
-.peach {
+/* .peach {
 	background-color: #FFDAB9;
 	
 }
@@ -95,22 +99,10 @@ body {
 }
 
 @keyframes peach_alive {
-	0%{
-		background-color: #FFDAB9;
-	}
-	25%{
-		background-color: #FFE4B5;
-	}
-	50%{
-		background-color: #FFDAB9;
-	}
-	75%{
-		background-color: #FFEFD5;
-	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: red;
 	}
-}
+} */
 
 
 .bulb {
